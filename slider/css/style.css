@@ -1,0 +1,17 @@
+#gallery {
+	width: 980px;
+	margin: 0 auto;
+}
+
+#gallery .gallery__photos img {
+	width: 100%;
+	display: none;
+}
+
+#gallery .gallery__photos img:first-child {
+	display: block;
+}
+
+.buttons {
+	text-align: center;
+}
