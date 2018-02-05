@@ -25,3 +25,5 @@ prev.onclick = function() {
 	}
 		images[i].style.display = "block";
 }
+document.querySelector
+
