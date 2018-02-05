@@ -24,6 +24,8 @@ body {
 }
 
 .nav {
+	margin: 0;
+	padding: 0;
 	list-style: none;
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -93,5 +95,5 @@ body {
 }
 
 .header-bottom {
-	background: url("");
+	background: url('../images/Windows-Black.png') no-repeat center center / cover;
 }
