@@ -1,0 +1,97 @@
+*, :after, :before {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+.page-center {
+	max-width: 940px;
+	margin: 0 auto;
+}
+
+.link {
+	color: #fff;
+	text-decoration: none;
+}
+
+.header-top {
+	background-color: #000;
+}
+
+.nav {
+	list-style: none;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+
+.nav-link {
+	display: block;
+	padding: 15px;
+}
+
+.nav__item {
+	position: relative;
+	border: 1px solid red;
+}
+
+.drop-menu {
+
+}
+
+.nav-sub {
+	position: absolute;
+	opacity: 0;
+	top: -9999px;
+	width: 150px;
+	list-style: none;
+	left: 0;
+}
+
+.nav-sub-second {
+	position: absolute;
+	opacity: 0;
+	top: -9999px;
+	width: 150px;
+	list-style: none;
+	left: 100%;
+}
+
+.drop-menu:hover .nav-sub {
+	opacity: 1;
+	top: 100%;
+	transition: 0.3s all;
+}
+
+.drop-menu-sub:hover .nav-sub-second {
+	opacity: 1;
+	top: 0;
+	transition: 0.3s all;
+}
+
+.nav-sub-link {
+	display: block;
+	padding: 15px;
+		
+}
+
+.nav-sub__item {
+	background-color: #000;
+	border: 1px solid blue;
+	position: relative;
+}
+
+.header-bottom {
+	background: url("");
+}
