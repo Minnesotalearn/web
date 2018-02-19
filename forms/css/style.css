@@ -1,0 +1,161 @@
+*, :after, :before {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+body {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* nav-left */
+
+.nav {
+	float: left;
+	width: 200px;
+	margin-right: 20px;
+}
+
+.nav-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* nav-left */
+
+.forms {
+	float: left;
+	width: 1020px;
+}
+
+.first-form {
+	background-color: #f1f1f1;
+}
+
+.select {
+	width: 100%;
+	padding: 15px 12px;
+	font-size: 13px;
+	line-height: 18px;
+	border-radius: 4px;
+	border: 1px solid #97a1aa;
+	color: #97a1aa;
+	-ms-appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	  background-image: url(pic/caret.png);
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+}
+
+.nav-list__links {
+	line-height: 46px;
+		font-size: 14px;
+		color: #4e5f6f;
+
+}
+
+.form-label {
+	font-size: 13px;
+	line-height: 18px;
+	color: #000;
+	margin-bottom: 12px;
+	display: block;
+	margin-bottom: 12px;
+}
+
+.second-form {
+	background-color: #f0ebd8;
+}
+
+.textarea {
+	min-height: 125px;
+	max-height: 300px;
+	    width: 100%;
+	    border-radius: 5px;
+}
+
+.pad {
+	margin-top: 24px;
+}
+
+.third-form {
+	background-color: #f1f1f1;
+}
+
+.label-flag {
+	    display: inline-block;
+    vertical-align: top;
+    line-height: 24px;
+}
+
+.checkbox {
+	position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+
+}
+
+.checkbox {
+		position: absolute;
+		width: 0;
+		height: 0;
+		opacity: 0;
+	}
+
+	.label-flag {
+		display: inline-block;
+		vertical-align: top;
+		line-height: 24px;
+	}
+
+.ee {
+		display: inline-block;
+		vertical-align: middle;
+		width: 24px;
+		height: 24px;
+		border:  1px solid #d8d8d8;
+		background-color: #fff;
+		transition: .2s ease;
+	}
+
+		.checkbox:checked ~ .ee {
+		background-color: #14c521;
+		box-shadow: inset 0 0 0 5px #fff;
+	}
+		.checkbox .ee {
+		border-radius: 4px;
+	}
+
+	.button {
+    background-color: #14c521;
+    color: #fff;
+    border-color: transparent;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .2s ease;
+    float: right;
+    padding: 13px 48px;
+    border-radius: 5px;
+	}
+
+	.button: hover {
+		    background-color: #35d641;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .15);
+    box-shadow: 0 3px 0 #e3e4e8;
+	}
+
+	.color {
+		background-color: #fff;
+	}
+
+	.correct {
+		padding: 27px 0px 27px 60px;
+	}
