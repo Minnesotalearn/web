@@ -124,4 +124,58 @@ if (login == 'Админ') {
 
  console.log( sumTo(92912) );
   */
-  
+
+/*var i = 0;
+while ( i < 3 ) {
+	alert(`Номер ${i} !`);
+	i++;
+}*/
+
+/*var a = +prompt('Введите первое число', '');
+var b = +prompt('Введите второе число', '');
+
+console.log( (a + b).toFixed(20) );*/
+
+/*user = {};
+user.name = "Вася";
+user.surname = "Петров";
+user.name = "Сергей";
+delete user.name;
+console.log(user);*/
+
+/*var menu = {
+  width: 200,
+  height: 300,
+  title: "My menu"
+};
+
+	function isNumeric(n) {
+  return !isNaN(parseFloat(n)) && isFinite(n)
+	}
+
+function multiplyNumeric(obj){
+	for(var test in obj){
+		if (isNumeric(obj[test])) {
+			obj[test] *= 2;
+		}
+	}
+}
+
+multiplyNumeric(menu);
+
+alert( "menu width=" + menu.width + " height=" + menu.height + " title=" + menu.title );*/
+
+/*var styles = ['Джаз', 'Блюз'];
+styles.push('Рок-н-Ролл');
+styles[styles.length-2] = 'Классика';
+alert(styles.shift());
+styles.unshift('Рэп', 'Регги');
+console.log(styles);*/
+
+var names = 'Маша, Петя, Марина, Василий';
+
+var arr = names.split(', ');
+
+for (var i = 0; i < arr.length; i++) {
+  alert( 'Вам сообщение ' + arr[i] );
+}
